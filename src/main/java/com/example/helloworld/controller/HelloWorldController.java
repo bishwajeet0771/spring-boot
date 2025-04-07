@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String sendGreetings() {
-        return "Hello, World!";
+        return "Hello, World! This  is Biswajeeth and if you are able to See this which means the Application is Deployed Properly :)";
     }
 }

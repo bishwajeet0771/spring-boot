@@ -20,8 +20,8 @@ public class HelloWorldControllerTest {
     @Test
     public void shouldReturnExpectedMessage() throws Exception {
 
-        mockMvc.perform(get("/"))
+        mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello, World! This is Biswajieeth's Sample App you are seeing after the Proper Deployment"));
+                .andExpect(content().string("Hello, World! This  is Biswajeeth and if you are able to See this which means the Application is Deployed Properly :)"));
     }
 }
